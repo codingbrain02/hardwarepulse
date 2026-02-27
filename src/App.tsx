@@ -113,7 +113,7 @@ function App() {
               </div>
             </div>
 
-            <button className="w-full py-4 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg text-lg transition-all hover:shadow-lg hover:shadow-sky-500/50 flex items-center justify-center gap-3">
+            <button className="w-full py-4 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg text-lg transition-all hover:shadow-lg hover:shadow-sky-500/50 flex items-center justify-center gap-3 hover:cursor-pointer">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                 <polyline points="7 10 12 15 17 10"></polyline>

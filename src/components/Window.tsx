@@ -169,7 +169,7 @@ function Window({
               <div className="pt-4 border-t border-gray-200">
                 <button 
                   onClick={handleUpdate}
-                  className="w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded transition-colors flex items-center justify-center gap-2"
+                  className="w-full py-3 bg-sky-600 hover:bg-sky-700 text-white font-semibold rounded transition-colors flex items-center justify-center gap-2 hover:cursor-pointer"
                 >
                   Install Hardware Monitor Now
                 </button>
