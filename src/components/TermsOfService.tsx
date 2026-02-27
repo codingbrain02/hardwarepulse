@@ -112,7 +112,7 @@ function TermsOfService() {
             <a href="#license" className="text-red-600 hover:text-red-700 text-sm hover:underline">→ License</a>
             <a href="#responsibilities" className="text-red-600 hover:text-red-700 text-sm hover:underline">→ User Responsibilities</a>
             <a href="#warranty" className="text-red-600 hover:text-red-700 text-sm hover:underline">→ Warranty</a>
-            <a href="#contact" className="text-red-600 hover:text-red-700 text-sm hover:underline">→ Contact</a>
+            {/*<a href="#contact" className="text-red-600 hover:text-red-700 text-sm hover:underline">→ Contact</a>*/}
           </div>
         </div>
 
