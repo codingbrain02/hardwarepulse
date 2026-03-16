@@ -101,7 +101,7 @@ function App() {
           </p>
 
           {/* Download Card */}
-          <div className="max-w-2xl mx-auto bg-gray-800/50 border border-gray-700 rounded-2xl p-8 mb-8">
+          <div className="max-w-2xl mx-auto bg-gray-800/50 border border-gray-700 rounded-2xl p-8 mb-8 backdrop-blur-sm">
             <div className="flex items-center justify-between mb-6">
               <div className="text-left">
                 <h2 className="text-2xl font-bold text-white mb-2">HardwarePulse Pro</h2>
@@ -114,7 +114,7 @@ function App() {
             </div>
 
             <a href="/HardwarePulse%20Setup%201.0.0.exe" download="HardwarePulse Setup 1.0.0.exe">
-              <button className="w-full py-4 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg text-lg transition-all hover:shadow-lg hover:shadow-sky-500/50 flex items-center justify-center gap-3 hover:cursor-pointer">
+              <button className="w-full py-4 bg-sky-500 hover:bg-sky-600 text-white font-semibold rounded-lg text-lg transition-all hover:shadow-lg hover:shadow-sky-500/50 flex items-center justify-center gap-3 cursor-pointer">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
                   <polyline points="7 10 12 15 17 10"></polyline>
@@ -124,30 +124,46 @@ function App() {
               </button>
             </a>
 
+            {/* Installation Instructions */}
+            <div className="mt-6 bg-sky-500/10 border border-sky-500/30 rounded-lg p-4">
+              <div className="flex items-start gap-3">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-sky-400 shrink-0 mt-0.5">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                <div className="text-sm text-gray-300">
+                  <p className="font-semibold text-white mb-1">Installation Note:</p>
+                  <p>Windows might show a security warning because this is a new app. Simply click <span className="text-sky-400 font-semibold">"More info"</span> then <span className="text-sky-400 font-semibold">"Run anyway"</span> to proceed with installation.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Trust Badges */}
             <div className="mt-6 flex items-center justify-center gap-6 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-green-400">
                   <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
                   <polyline points="22 4 12 14.01 9 11.01"></polyline>
                 </svg>
-                Verified Safe
+                <span>Malware Free</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-sky-400">
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
-                Digitally Signed
+                <span>Safe Download</span>
               </div>
               <div className="flex items-center gap-2">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-sky-400">
                   <circle cx="12" cy="12" r="10"></circle>
                   <polyline points="12 6 12 12 16 14"></polyline>
                 </svg>
-                Quick Install
+                <span>Quick Install</span>
               </div>
             </div>
 
-            <p className="mt-6 text-xs text-gray-500 text-center">
+            <p className="mt-4 text-xs text-gray-500 text-center">
               By downloading, you agree to our Terms of Service and Privacy Policy
             </p>
           </div>
