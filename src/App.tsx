@@ -127,11 +127,6 @@ function App() {
             {/* Installation Instructions */}
             <div className="mt-6 bg-sky-500/10 border border-sky-500/30 rounded-lg p-4">
               <div className="flex items-start gap-3">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-sky-400 shrink-0 mt-0.5">
-                  <circle cx="12" cy="12" r="10"></circle>
-                  <line x1="12" y1="16" x2="12" y2="12"></line>
-                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
-                </svg>
                 <div className="text-sm text-gray-300">
                   <p className="font-semibold text-white mb-1">Installation Note:</p>
                   <p>Windows might show a security warning because this is a new app. Simply click <span className="text-sky-400 font-semibold">"More info"</span> then <span className="text-sky-400 font-semibold">"Run anyway"</span> to proceed with installation.</p>
